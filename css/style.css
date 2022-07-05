@@ -2,15 +2,29 @@
 
 
 .logo {
-    height: 15vw;
+    /* height: 15vw; */
     max-height: 160px;
 }
 
 .tarjetita {
-    width: 30vh;
+    /* width: 30vh; */
 }
 
 .card {
-    height: 50
-    0px;
+    height: 100%;
+}
+
+.ulloca {
+    padding: 0;
+}
+
+.ulloca li a {
+    margin: 0 5vw;
+}
+
+
+@media (max-width: 388px) {
+    .logo {
+        max-height: 120px;
+    }
 }
