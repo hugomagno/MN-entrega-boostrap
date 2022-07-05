@@ -2,13 +2,9 @@
 
 
 .logo {
-    /* height: 15vw; */
     max-height: 160px;
 }
 
-.tarjetita {
-    /* width: 30vh; */
-}
 
 .card {
     height: 100%;
@@ -22,6 +18,9 @@
     margin: 0 5vw;
 }
 
+footer {
+    width: 100%;
+}
 
 @media (max-width: 388px) {
     .logo {
