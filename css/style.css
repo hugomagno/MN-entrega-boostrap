@@ -22,6 +22,10 @@ footer {
     width: 100%;
 }
 
+.carouselalto img{
+    max-height: 60vh;
+}
+
 @media (max-width: 388px) {
     .logo {
         max-height: 120px;

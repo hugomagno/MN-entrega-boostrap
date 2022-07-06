@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
-<body class="bg-secondary bg-gradient">
+<body class="bg-light">
     <header class="container-fluid p-0">
       <div class="row">
         <div class="col">
@@ -50,55 +50,50 @@
           
     </header>
     
-    <main class="py-5 my-5">
-        <section class="d-flex justify-content-center ">
-            <div class="card col-md-5">
-
-                <h2>Contactate ahora:</h2>
-
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1">Nombre y apellido:</span>
-                    <input type="text" class="form-control" placeholder="Escribir aquí" aria-label="Username" aria-describedby="basic-addon1">
-                </div>
-                
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Escribir aquí" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <span class="input-group-text" id="basic-addon2">Tu_Email_@ejemplo.com</span>
-                </div>
-                
-                <label for="basic-url" class="form-label">Tu dirección WEB a revisar</label>
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon3">https://ejemplo.com/usario/</span>
-                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                </div>
-                
-                <div class="input-group mb-3">
-                    <span class="input-group-text">Grupo Sanguineo</span>
-                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                    <span class="input-group-text">.00</span>
-                </div>
-                
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Hello, algún otro mail?" aria-label="Username">
-                    <span class="input-group-text">@</span>
-                    <input type="text" class="form-control" placeholder="Gmail? Hotmail?" aria-label="Server">
-                </div>
-                
-                <div class="input-group">
-                    <span class="input-group-text">Escribí tu consulta:</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+    <main >
+        <section id="carouselExampleIndicators" class="carousel slide carouselalto" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-
-            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://picsum.photos/500/1400?random=1" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/500/1400.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/500/1400?random=3" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>    
         </section>
 
-        <div class="d-grid gap-2 col-6 mx-auto m-5 border-1">
-          <button class="btn btn-primary border-success" type="button">Suscribite HOY</button>
- 
-        </div>
+        <section class="container rounded">
+            <div class="row">
+                <div class="col-8 mx-auto text-center bg-primary rounded-bottom">
+                    <h2>Si te tuviese que decir quienes somos nosotros <br /> En una sola palabra te podría decir que somos: </h2>
+                    <p>Mucho Cariño!</p>
 
+                </div>
+            </div>
+        </section>
+
+
+        <div class="d-grid gap-2 col-6 mx-auto m-5 border-1">
+            <button class="btn btn-primary border-success" type="button">Suscribite HOY</button>
+   
+        </div>
 
     </main>
 
